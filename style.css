@@ -1,0 +1,48 @@
+.center {
+    text-align: center;
+  }
+  .flex-container {
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flex-container > div {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 20px;
+    /*padding-bottom: 30px;*/
+    width: 30%;
+  }
+  .flex-container > div label{
+  text-align: left;
+  padding-bottom: 5px;
+ 
+  }
+  .flex-container > div button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .flex-container > div button:hover {
+    opacity: 1
+  }
+  .flex-container > div input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
